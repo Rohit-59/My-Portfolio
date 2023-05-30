@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 import {AiOutlineClose,AiOutlineMenu,AiOutlineMail} from 'react-icons/ai'
 import Link from 'next/link'
 import {FaLinkedinIn,FaGithub,FaTwitter} from 'react-icons/fa'
+import navimage from '../public/assets/navLogo.png'
 
 const Navbar = () => {
 
@@ -53,7 +54,7 @@ if(window.scrollY>=90){
     <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16' >
 
     <Link href='/'>
-    <Image src='../public/assets/navLogo.png' alt='/' width = "125" height='50'  />
+    <Image src={navimage} alt='/' width = "125" height='50'  />
 
     </Link>
 
@@ -91,7 +92,7 @@ if(window.scrollY>=90){
 <div className= {!nav?'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] px-9 py-6 ease-in duration-500': "fixed top-0  px-9 py-6 ease-in duration-500 left-[-100%]"} >
 <div> 
   <div className='flex w-full items-center justify-between' >
-  <Image src='/../public/assets/navLogo.png' alt='/' width = "87" height='35'  />
+  <Image src={navimage} alt='/' width = "87" height='35'  />
   <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer' >
   <AiOutlineClose />
   </div>
