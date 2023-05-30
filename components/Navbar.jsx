@@ -53,7 +53,7 @@ if(window.scrollY>=90){
     <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16' >
 
     <Link href='/'>
-    <Image src='/../public/assets/navLogo.png' alt='/' width = "125" height='50'  />
+    <Image src='../public/assets/navLogo.png' alt='/' width = "125" height='50'  />
 
     </Link>
 
