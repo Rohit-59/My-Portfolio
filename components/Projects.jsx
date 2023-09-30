@@ -9,6 +9,7 @@ import web4 from '../public/assets/projects/web4.png'
 import web5 from '../public/assets/projects/web5.png'
 import web6 from '../public/assets/projects/web6.png'
 import web7 from '../public/assets/projects/web7.png'
+import web8 from '../public/assets/projects/web8.png'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
@@ -33,6 +34,13 @@ const Projects = () => {
             backgroundImg={web6}
             projectUrl='/aiimage'
             tech='MERN Stack'
+
+          />
+          <ProjectItem
+            title='FunRoom'
+            backgroundImg={web8}
+            projectUrl='/funroom'
+            tech='React,Firebase'
 
           />
               <ProjectItem

@@ -9,6 +9,7 @@ import tailwindi from '../public/assets/skills/tailwind.png'
 import mongoi from '../public/assets/skills/mongo.png'
 import github1i from '../public/assets/skills/github1.png'
 import expressi from '../public/assets/skills/express.png'
+import firebase from '../public/assets/skills/firebase.png'
 
 const Skills = () => {
   return (
@@ -46,6 +47,17 @@ const Skills = () => {
   </div>
   <div>
     <h3 className='flex flex-col items-center justify-center' >Javascript</h3>
+    </div>
+    </div>
+    </div>
+
+    <div className='p-6 m-3 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
+  <div className='m-auto' >
+  <Image src={firebase} alt='/' width='64' height='64'/>
+  </div>
+  <div>
+    <h3 className='flex flex-col items-center justify-center' >Firebase</h3>
     </div>
     </div>
     </div>
